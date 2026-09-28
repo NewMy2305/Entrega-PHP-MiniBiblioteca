@@ -44,7 +44,7 @@ $libro = buscarLibroPorId($libros, $id);
     
         <article class="libro">
 
-            <h3><?= $libro ["titulo"] ?></h3>
+            <h3><?= $libro ["Titulo"] ?></h3>
 
             <p>
                 Autor:

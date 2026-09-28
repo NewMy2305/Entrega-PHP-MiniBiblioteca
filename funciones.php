@@ -27,8 +27,8 @@ function obtenerEstado (int $ejemplares): string
 
 
 
-// funcion asociado a un nombre en css para que aplique un color diferente dependiendo,
-// del stock que tenga en ese momento el producto.
+/* funcion asociado a un nombre en css para que aplique un color diferente dependiendo,
+ del stock que tenga en ese momento el producto. */
 
 
 function obtenerClaseEstado(int $ejemplares): string 
@@ -61,8 +61,6 @@ function buscarLibroPorId(array $libros, int $id): array
     }
     return null;
 }
-
-
 
 
 

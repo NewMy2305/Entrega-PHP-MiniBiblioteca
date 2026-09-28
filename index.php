@@ -3,10 +3,6 @@
 require_once "datos.php";
 require_once "funciones.php";
 
-
-
-
-
 ?>
 
 
@@ -47,7 +43,7 @@ require_once "funciones.php";
 
         <article class="libro">
 
-            <h3><?= $libro ["titulo"] ?></h3>
+            <h3><?= $libro ["Titulo"] ?></h3>
 
             <p>
                 Autor:
